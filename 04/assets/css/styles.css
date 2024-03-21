@@ -7,14 +7,21 @@ body{
     padding: 0;
 }
 
-header h1{
-    color: white;
+header{
+    display: flex;
     background-color: brown;
-    max-width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    text-transform: uppercase;
-    border-radius: .3rem;
+    justify-content: space-between;
+    align-items:baseline;
+}
+
+header h1{
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+header nav ul li{
+    margin: 20px;
+    font-size:1.5rem;
 }
 
 nav ul {
@@ -50,6 +57,16 @@ aside button {
     border-radius: 5px;
     padding: 5px;
     margin-top: 10px;
+}
+
+aside button:hover{
+    transition: .3s ease-in-out;
+    background-color: rgba(24, 108, 235, 0.479);
+    border-color: white;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+    transform: rotate(360deg);
 }
 
 main article{
