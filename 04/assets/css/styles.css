@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(34, 34, 34);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header h1{
+    color: white;
+    background-color: brown;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: .3rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main{
+    width: 70%;
+}
+
+aside{
+    width: 30%;
+    background-color: azure;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+aside button {
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgb(24,107,235);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+main article{
+    margin: 20px;
+    background-color: rgb(146, 146, 146);
+    border-radius: 15px;
+    padding: 10px;
+    text-align: start;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    font-style: none;
+    color: rgb(23, 107, 235);
+    transition-duration: .3s;
+    cursor: pointer;
+}
